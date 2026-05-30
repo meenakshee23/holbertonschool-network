@@ -8,3 +8,9 @@ Understand how computers communicate:
 **How is the OSI model organized?**
 - From the lowest to the highest level
 
+**What is a MAC address?**
+- The unique identifier of a network interface
+
+**What is an IP address?**
+- Is to devices connected to a network what postal address is to houses
+
