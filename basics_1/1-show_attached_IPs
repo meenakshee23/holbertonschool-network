@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Writes a Bash script that displays all active IPv4 on the machine
+# Writes a Bash script that displays all active IPv4 IPs on the machine it's executed on
 
-hostname -I | tr ' ' '\n'
+ip addr | grep inet | awk '{print $2}'
